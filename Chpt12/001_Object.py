@@ -1,5 +1,10 @@
 class Orange:
-    def __init__(self):
+    def __init__(self, w, c):
+        self.weight = w
+        self.color = c
         print("Created!")
 
-Orange()
+or1 = Orange(10, "dark")
+
+print(f"Weight = {or1.weight}")
+print(f"Color = {or1.color}")
