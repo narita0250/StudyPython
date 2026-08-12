@@ -1,2 +1,1 @@
 print("tmp") 
-print("hoge")
