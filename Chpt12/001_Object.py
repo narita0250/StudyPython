@@ -4,7 +4,8 @@ class Orange:
         self.color = c
         print("Created!")
 
-or1 = Orange(10, "dark")
+    def show_info(self):
+        print(f"Weight = {self.weight}, Color = {self.color}")
 
-print(f"Weight = {or1.weight}")
-print(f"Color = {or1.color}")
+or1 = Orange(10, "dark")
+or1.show_info()
