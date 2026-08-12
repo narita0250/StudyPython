@@ -1,4 +1,8 @@
-# Thanks so much for reading my book. Feel free to contact me at cory[at]theselftaughtprogrammer.io.
+"""
+10章：戦争ゲーム
+
+編集元：https://github.com/calthoff/self_taught/blob/master/python_ex280.py/
+"""
 
 
 from random import shuffle
